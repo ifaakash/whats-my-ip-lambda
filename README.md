@@ -20,6 +20,10 @@ This project helps to deploy a simple Python application that returns the timest
    ```bash
    terraform apply
    ```
+5. After successful deployment, access the application at the API Gateway URL:
+   ```bash
+   terraform output api_gateway_url
+   ```
 
 ## Project Structure
 ```
