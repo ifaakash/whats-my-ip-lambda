@@ -1,10 +1,24 @@
-## Description
-This project helps to deploy a simple Python application that returns the timestamp and user IP address upon hitting a URL. The infrastructure is provisioned and managed using Terraform.
+# AWS Lambda IP & Timestamp API
 
-## Prerequisites
-- Terraform installed (version X.X.X or higher)
-- AWS credentials configured
-- Any necessary provider plugins
+A simple serverless API built with AWS Lambda + API Gateway that returns the timestamp and public IP address of the client making the request.
+Infrastructure is managed via Terraform and deployed with a single command.
+
+---
+
+## Tech Stack
+
+- AWS Lambda (Python)
+- API Gateway (HTTP API)
+- Terraform
+- AWS IAM
+- Optional: GitHub Actions for CI/CD
+
+## What This API Does
+
+When you hit the API endpoint:
+
+```bash
+curl https://<your-api>.execute-api.<region>.amazonaws.com/<stage>/
 
 ## Usage
 1. Clone this repository
