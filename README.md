@@ -1,9 +1,11 @@
+# whats-my-ip-lambda
+
 ## Description
-This project contains Terraform configurations to provision and manage infrastructure.
+This project helps to deploy a simple Python application that returns the timestamp and user IP address upon hitting a URL. The infrastructure is provisioned and managed using Terraform.
 
 ## Prerequisites
 - Terraform installed (version X.X.X or higher)
-- Cloud provider credentials configured
+- AWS credentials configured
 - Any necessary provider plugins
 
 ## Usage
